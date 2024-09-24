@@ -1,0 +1,15 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center images horizontally */
+    padding: 20px; /* Add some padding around the container */
+}
+
+.image-container img {
+    width: 100%; /* Make image take full width of its container */
+    max-width: 200px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for images */
+}
